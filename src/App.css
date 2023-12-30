@@ -1,0 +1,27 @@
+.App .stargrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 15px;
+}
+
+.App .stargrid .star {
+  padding: 15px;
+  background-color: cadetblue;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.App .stargrid .star img {
+  height: 125px;
+}
+
+.App .stargrid .star p {
+  font-size: 1em;
+  color: black;
+  font-weight: bold;
+}
