@@ -13,7 +13,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  cursor: pointer;
 }
 
 .App .stargrid .star img {
@@ -24,4 +23,8 @@
   font-size: 1em;
   color: black;
   font-weight: bold;
+}
+
+.App .stargrid .star button {
+  cursor: pointer;
 }
